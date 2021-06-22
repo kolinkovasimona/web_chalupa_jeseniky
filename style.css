@@ -69,7 +69,7 @@ footer .text_seda {
 
 .popisek {
   margin: 5% 0;
-  color: white;
+  color: #1a1919;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
@@ -97,6 +97,9 @@ footer .text_seda {
             transform: translateY(100%);
     -webkit-transition: 0.3s;
     transition: 0.3s;
+  }
+  .popisek {
+    color: #ffffff;
   }
   .foto img {
     -webkit-transition: 0.3s;
