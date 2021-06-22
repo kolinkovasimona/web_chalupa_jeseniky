@@ -1,0 +1,117 @@
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #000000;
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.na_prodej {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #e7e72c;
+  margin: 0;
+}
+
+section,
+header {
+  padding: 5px;
+}
+
+main {
+  line-height: 1.7rem;
+}
+
+.vyuziti {
+  background-color: #808080;
+  padding: 0.5rem 0.7rem;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+footer {
+  margin: 10px;
+  background-color: #e7e72c;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.foto {
+  position: relative;
+}
+
+.popisek {
+  margin: 5% 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 950px) {
+  body {
+    padding: 0 20%;
+  }
+  .foto_chalupa {
+    float: left;
+    margin-right: 1rem;
+  }
+  .inzerat img {
+    width: 60%;
+  }
+  .foto .popisek {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 10px 15px;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .foto img {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .foto:hover img {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  .foto:hover .popisek {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .galerie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .foto {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=style.css.map */
