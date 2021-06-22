@@ -64,7 +64,7 @@ footer {
 
 .popisek {
   margin: 5% 0;
-  color: white;
+  color:#1a1919;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
@@ -92,6 +92,9 @@ footer {
     padding: 10px 15px;
     transform: translateY(100%);
     transition: 0.3s;
+  }
+  .popisek {
+    color:#ffffff;
   }
 
   .foto img {
