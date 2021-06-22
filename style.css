@@ -48,10 +48,19 @@ main {
 }
 
 footer {
-  margin: 10px;
   background-color: #e7e72c;
   text-align: center;
   padding: 1rem 0;
+}
+
+footer p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+footer .text_seda {
+  color: #808080;
 }
 
 .foto {

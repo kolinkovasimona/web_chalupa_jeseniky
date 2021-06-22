@@ -45,10 +45,17 @@ main {
     font-size: 1.2rem;
 }
 footer {
-  margin: 10px;
   background-color: #e7e72c;
   text-align: center;
   padding: 1rem 0;
+  p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .text_seda{
+    color: #808080;
+  }
 }
 
 .foto {
