@@ -36,6 +36,15 @@ header {
 main {
   line-height: 1.7rem;
 }
+.nadpis{
+  &::after{
+    content: '';
+width: 5rem;
+display: block;
+border-top: 3px solid #e7e72c;
+margin-top: 1rem;
+}
+}
 
 .vyuziti{
     background-color: #808080;
@@ -44,7 +53,7 @@ main {
     border-radius: 10px;
     font-size: 1.2rem;
 }
-footer {
+.kontakty{
   background-color: #e7e72c;
   text-align: center;
   padding: 1rem 0;
@@ -68,6 +77,17 @@ footer {
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
+}
+
+footer{
+  background-color: #e7e72c;
+  text-align: center;
+  padding: 1rem 0;
+  p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
 }
 
 @media (min-width: 950px) {

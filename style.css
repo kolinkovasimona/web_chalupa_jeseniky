@@ -39,6 +39,14 @@ main {
   line-height: 1.7rem;
 }
 
+.nadpis::after {
+  content: '';
+  width: 5rem;
+  display: block;
+  border-top: 3px solid #e7e72c;
+  margin-top: 1rem;
+}
+
 .vyuziti {
   background-color: #808080;
   padding: 0.5rem 0.7rem;
@@ -47,19 +55,19 @@ main {
   font-size: 1.2rem;
 }
 
-footer {
+.kontakty {
   background-color: #e7e72c;
   text-align: center;
   padding: 1rem 0;
 }
 
-footer p {
+.kontakty p {
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0;
 }
 
-footer .text_seda {
+.kontakty .text_seda {
   color: #808080;
 }
 
@@ -73,6 +81,18 @@ footer .text_seda {
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
+}
+
+footer {
+  background-color: #e7e72c;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
 }
 
 @media (min-width: 950px) {
