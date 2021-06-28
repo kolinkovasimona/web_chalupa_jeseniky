@@ -142,6 +142,9 @@ footer p {
   body {
     padding: 0 20%;
   }
+  .logo img {
+    max-width: 20%;
+  }
   .foto_chalupa {
     float: left;
     margin-right: 1rem;
